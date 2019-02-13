@@ -1,10 +1,10 @@
 import com.google.common.truth.Truth;
 
-import static org.junit.Assert.*;
+import org.junit.Test;
 
 public class HelloWorldTest {
 
-    @org.junit.Test
+    @Test
     public void get() {
 
         Truth.assertThat(1+1).isEqualTo(2);
